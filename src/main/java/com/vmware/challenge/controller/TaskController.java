@@ -58,7 +58,7 @@ public class TaskController {
 
 	@GetMapping("/tasks/{id}")
 	public ResponseEntity<TaskStatusDto> checkOutput(@Valid @NotNull @PathVariable(required = true) UUID id,
-			@Valid @Pattern(regexp = VALIDATION_NUMLIST) @RequestParam(required = true) String action) throws DataReadFailedException {
+			@Valid @Pattern(regexp = VALIDATION_NUMLIST) @RequestParam(required = true,  defaultValue = "get_numlist") String action ) throws DataReadFailedException {
 		String data = taskService.readData(id);
 		return ResponseEntity.ok().body(new TaskStatusDto(data));
 	}
