@@ -1,6 +1,6 @@
 apidetails:
-  title: Vmware Number Generator API
-  description:  Vmware Number Generator and Status Info API challenge
+  title: Number Generator API
+  description:  Number Generator and Status Info API challenge deployed in https://numgen.herokuapp.com/swagger-ui.html
   version: 1.0
   terms-of-service: Terms of Service
   name: Aritra Basu
