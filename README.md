@@ -21,7 +21,6 @@ Reasoning:
 If you were to spend additional time on the project - externalize caching to use Redis and use a benchmarking tool to find the right setting for Threadpool
 
 Link to your resume or public profile - can be found in swagger project description
-Link to the hosted application where applicable - can be found in swagger project description
 
 ## How to Run 
 
